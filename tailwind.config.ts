@@ -14,6 +14,17 @@ export default {
     },
     extend: {
       colors: {
+        ink: "#07111d",
+        panel: "#0b1726",
+        teal: {
+          200: "#99f6e4",
+          300: "#5eead4",
+          400: "#2dd4bf",
+        },
+        amber: {
+          200: "#fde68a",
+          300: "#fcd34d",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
